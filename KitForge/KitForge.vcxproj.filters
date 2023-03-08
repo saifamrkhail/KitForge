@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="KitForge">
+      <UniqueIdentifier>{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KitForge\Events">
+      <UniqueIdentifier>{41BE21A1-AD73-9A96-3668-946DA21C919A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\KitForge.h" />
+    <ClInclude Include="src\KitForge\Application.h">
+      <Filter>KitForge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\Core.h">
+      <Filter>KitForge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\EntryPoint.h">
+      <Filter>KitForge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\Events\ApplicationEvent.h">
+      <Filter>KitForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\Events\Event.h">
+      <Filter>KitForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\Events\KeyEvent.h">
+      <Filter>KitForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\Events\MouseEvent.h">
+      <Filter>KitForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KitForge\Log.h">
+      <Filter>KitForge</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\KitForge\Application.cpp">
+      <Filter>KitForge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KitForge\Log.cpp">
+      <Filter>KitForge</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

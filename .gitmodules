@@ -1,0 +1,3 @@
+[submodule "KitForge/vendor/spdlog"]
+	path = KitForge/vendor/spdlog
+	url = git@github.com:gabime/spdlog.git
