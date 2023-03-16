@@ -1,3 +1,6 @@
 [submodule "KitForge/vendor/spdlog"]
 	path = KitForge/vendor/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "KitForge/vendor/GLFW"]
+	path = KitForge/vendor/GLFW
+	url = https://github.com/TheCherno/glfw.git

@@ -1,6 +1,5 @@
 #pragma once
 
-#include "kitforgepch.h"
 #include "Event.h"
 
 namespace KitForge {

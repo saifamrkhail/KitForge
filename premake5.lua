@@ -11,6 +11,12 @@ workspace "KitForge"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- inlcude dirs relatie to root folder (solution dir)
+IncludeDir = {}
+IncludeDir["GLFW"] = "KitForge/vendor/GLFW/include"
+
+include "KitForge/vendor/GLFW"
+
 project "KitForge"
     location "KitForge"
     kind "SharedLib"
@@ -31,12 +37,19 @@ project "KitForge"
     includedirs
     {
         "%{prj.name}/src",
-        "%{prj.name}/vendor/spdlog/include"
+        "%{prj.name}/vendor/spdlog/include",
+        "%{IncludeDir.GLFW}"
+    }
+
+    links 
+    {
+        "GLFW",
+        "opengl32.lib"
     }
 
     filter "system:windows"
         cppdialect "C++17"
-        staticruntime "On"
+        runtime "Debug"
         systemversion "latest"
 
         defines
@@ -53,20 +66,25 @@ project "KitForge"
     filter "configurations:Debug"
         defines "KITFORGE_DEBUG"
         symbols "On"
+        runtime "Debug"
 
     filter "configurations:Release"
         defines "KITFORGE_RELEASE"
-        symbols "On"
+        optimize "On"
+        runtime "Release"
 
     filter "configurations:Dist"
         defines "KITFORGE_DIST"
-        symbols "On"
+        optimize "On"
+        runtime "Release"
 
 project "Sandbox"
     location "Sandbox"
     kind "ConsoleApp"
 
     language "C++"
+    staticruntime "off"
+
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
@@ -89,7 +107,7 @@ project "Sandbox"
 
     filter "system:windows"
         cppdialect "C++17"
-        staticruntime "On"
+        runtime "Debug"
         systemversion "latest"
 
         defines
@@ -103,8 +121,10 @@ project "Sandbox"
 
     filter "configurations:Release"
         defines "KITFORGE_RELEASE"
-        symbols "On"
+        optimize "On"
+        runtime "Release"
 
     filter "configurations:Dist"
         defines "KITFORGE_DIST"
-        symbols "On"
+        optimize "On"
+        runtime "Release"

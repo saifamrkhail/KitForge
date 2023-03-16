@@ -7,6 +7,12 @@
     <Filter Include="KitForge\Events">
       <UniqueIdentifier>{E42B6D95-50B7-DA59-59C8-5D4EC5D2365A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\KitForge.h" />
@@ -34,6 +40,12 @@
     <ClInclude Include="src\KitForge\Log.h">
       <Filter>KitForge</Filter>
     </ClInclude>
+    <ClInclude Include="src\KitForge\Window.h">
+      <Filter>KitForge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
     <ClInclude Include="src\kitforgepch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +54,9 @@
     </ClCompile>
     <ClCompile Include="src\KitForge\Log.cpp">
       <Filter>KitForge</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\kitforgepch.cpp" />
   </ItemGroup>

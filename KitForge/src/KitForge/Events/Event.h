@@ -1,4 +1,5 @@
 #pragma once
+
 #include "kitforgepch.h"
 #include "KitForge/Core.h"
 
