@@ -2,10 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="KitForge">
-      <UniqueIdentifier>{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}</UniqueIdentifier>
+      <UniqueIdentifier>{00806759-EC4C-C264-1566-B00C0192F7F2}</UniqueIdentifier>
     </Filter>
     <Filter Include="KitForge\Events">
-      <UniqueIdentifier>{41BE21A1-AD73-9A96-3668-946DA21C919A}</UniqueIdentifier>
+      <UniqueIdentifier>{E42B6D95-50B7-DA59-59C8-5D4EC5D2365A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +34,7 @@
     <ClInclude Include="src\KitForge\Log.h">
       <Filter>KitForge</Filter>
     </ClInclude>
+    <ClInclude Include="src\kitforgepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\KitForge\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\KitForge\Log.cpp">
       <Filter>KitForge</Filter>
     </ClCompile>
+    <ClCompile Include="src\kitforgepch.cpp" />
   </ItemGroup>
 </Project>

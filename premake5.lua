@@ -19,6 +19,9 @@ project "KitForge"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "kitforgepch.h"
+    pchsource "KitForge/src/kitforgepch.cpp"
+
     files 
     {
         "%{prj.name}/src/**.h",

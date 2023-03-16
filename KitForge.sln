@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
+# Visual Studio Version 17
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KitForge", "KitForge\KitForge.vcxproj", "{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KitForge", "KitForge\KitForge.vcxproj", "{00806759-EC4C-C264-1566-B00C0192F7F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,12 +18,12 @@ Global
 		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Dist|x64.Build.0 = Dist|x64
 		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Release|x64.ActiveCfg = Release|x64
 		{F4C124E3-60A1-A37E-69B9-2E55D5170AE0}.Release|x64.Build.0 = Release|x64
-		{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}.Debug|x64.ActiveCfg = Debug|x64
-		{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}.Debug|x64.Build.0 = Debug|x64
-		{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}.Dist|x64.ActiveCfg = Dist|x64
-		{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}.Dist|x64.Build.0 = Dist|x64
-		{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}.Release|x64.ActiveCfg = Release|x64
-		{FDB0827C-E9E7-830D-92D4-69107EEAFF0E}.Release|x64.Build.0 = Release|x64
+		{00806759-EC4C-C264-1566-B00C0192F7F2}.Debug|x64.ActiveCfg = Debug|x64
+		{00806759-EC4C-C264-1566-B00C0192F7F2}.Debug|x64.Build.0 = Debug|x64
+		{00806759-EC4C-C264-1566-B00C0192F7F2}.Dist|x64.ActiveCfg = Dist|x64
+		{00806759-EC4C-C264-1566-B00C0192F7F2}.Dist|x64.Build.0 = Dist|x64
+		{00806759-EC4C-C264-1566-B00C0192F7F2}.Release|x64.ActiveCfg = Release|x64
+		{00806759-EC4C-C264-1566-B00C0192F7F2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

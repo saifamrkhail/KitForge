@@ -1,3 +1,4 @@
+#include "kitforgepch.h"
 #include "Log.h"
 
 namespace KitForge {

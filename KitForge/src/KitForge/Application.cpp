@@ -1,5 +1,5 @@
+#include "kitforgepch.h"
 #include "Application.h"
-
 #include "KitForge/Events/ApplicationEvent.h"
 #include "KitForge/Log.h"
 

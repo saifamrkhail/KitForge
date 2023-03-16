@@ -1,10 +1,6 @@
 #pragma once
-
+#include "kitforgepch.h"
 #include "KitForge/Core.h"
-
-#include <string>
-#include <functional>
-#include <sstream>
 
 namespace KitForge {
 
