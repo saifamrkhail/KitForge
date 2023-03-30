@@ -44,7 +44,7 @@ Examples: conan, vcpkg, hunter
 ### What is the difference between a dynamic linked library and a static library?
 Static libraries are loaded to the program at compile time, i.e., the resulting executable contains its own copy of the library code. Dynamic libraries are usually shared by multiple programs and loaded at runtime.
 
-### Describe a event system with your own words:
+### Describe an event system with your own words:
 An event system provides the developer with a uniform way to handle (capture, enqueue, process) emerging events such as mouse/key input, window resizing, etc. within a game engine.
 
 ### What is a Design Pattern?
